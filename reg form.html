@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>doc1</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+            font-family: sans-serif;
+        }
+        caption{
+            background-color:rgb(165, 146, 184);
+            height: 50px;
+            width: auto;
+        }
+        h2{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<center>
+    <body>
+        <form action="v.php" method="post">
+            <table width="300" height="300" cellpspacing="15px" cellpadding="10px">
+                <caption><h2>Registration form</h2></caption>
+                <tr>
+                    <td><b>First name</b></td>
+                    <td><input type="text" name="Firstname" id="Firstname" placeholder="Firstname" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><b>Last name</b></td>
+                    <td><input type="text" name="Lastname" id="Lastname" placeholder="Lastname" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><b>Gender</b></td>
+                    <td><input type="radio" name="male" value="m" id="male"/>male</td><br>
+                    <td><input type="radio" name="female" value="f" id="female"/>female<br></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input type="Email" name="Email" id="Email" placeholder="Email address" size="25" aria-describedby="emailHelp"/></td>
+                    <span id="emailHelp" style="display: none;">please enter valid email address</span>
+                </tr>
+                <tr>
+                    <td><b>Password</b></td>
+                    <td><input type= Password" placeholder="Password" id="Password" name="Password" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><b>Phone Number</b></td>
+                    <td><input type="tel" name="Phonenumber" id="Phone number" placeholder="Phone number" size="25"/></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit"/></td>
+                    <td><a href="login.html" target="_blank">login</a> </td>
+                </tr>
+            </table>
+    
+        </form>
+    </body>
+
+</center>
+</html>
+</html>

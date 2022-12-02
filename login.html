@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login form</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+            font-family: sans-serif;
+        }
+        caption{
+            background-color:rgb(165, 146, 184);
+            height: 50px;
+            width: auto;
+        }
+        h2{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<center>
+    <body>
+    <form action="conn.php" method="post">
+        <table width="300" height="300" cellpspacing="15px" cellpadding="10px">
+            <caption><h2>login form</h2></caption>
+            <tr>
+                <td><b>Username</b></td>
+                <td><input type="text" name="username" id="username" placeholder="Username" size="25" required/></td>
+            </tr>
+            <tr>
+                <td><b>Password</b></td>
+                <td><input type="password" name="password" id="password" placeholder="password" size="25" required/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="sign in"/></td>
+                <td><a href="register.html" target="_blank">create account</a> </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</center>
+</html>
